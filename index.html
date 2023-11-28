@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <title>Carrousel</title>
+</head>
+
+<body>
+
+    <h1 class="titre">Carrousel</h1>
+    <p>This is a paragraph.</p>
+
+    <div class="carrousel" x-data="{}">
+        <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précédant">&lt;</button>
+        <button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">&gt;</button>
+        <div class="carrousel_parent-ecrans">
+            <div id="ecran-1" class="carrousel_ecran">
+                <figure>
+                    <img class="img" src="https://picsum.photos/seed/1/500/300" alt="image ecran 1" />
+                    <figcaption>Ecran 1</figcaption>
+                </figure>
+            </div>
+            <!-- Répétez les blocs ci-dessus pour les écrans 2 à 5 -->
+        </div>
+        <ul class="caroussel_liste-liens">
+            <li><a class="caroussel_lien" href="#ecran-1">ecran 1</a></li>
+            <!-- Répétez les éléments de la liste pour les liens 2 à 5 -->
+        </ul>
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>

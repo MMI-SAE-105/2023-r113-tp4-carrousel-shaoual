@@ -1,0 +1,55 @@
+/* en vrac :
+100% 100% 100% 0 auto border-box box-sizing 
+display height flex flex none margin 
+max-width width width
+*/
+.titre {
+  color: #31968e;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+
+.carrousel {
+  position: relative;
+}
+
+.carrousel_btn {
+  position: absolute;
+  top: calc(100vw / 16 * 9 / 2 + 1rem); /* centre verticalement ~50% vertical */
+  transform: translateY(-50%); /* methode du point mort */
+  width: 2rem;
+  height: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  border: none;
+  display: grid;
+  place-content: center;
+  color: #fff;
+}
+
+.carrousel_btn-avant {
+  left: 0;
+}
+.carrousel_btn-apres {
+  right: 0;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  /* image responsive, largeur maxi */
+  /* hauteur "auto" */
+}
+.carrousel_parent-ecrans {
+  /* aligne horizontalement les enfants */
+  /* largeur du parent */
+}
+.carrousel_ecran {
+  /* largeur du parent pour chaque enfant */
+  /* permet de garder toute la largeur du parent */
+}
+.carrousel_ecran figure {
+  /* enlève les marges par défaut */
+}
