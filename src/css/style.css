@@ -51,6 +51,9 @@
   max-width: 100%;
   height: auto;
   margin:30x;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: none;
   
   /* image responsive, largeur maxi */
   /* hauteur "auto" */
