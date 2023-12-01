@@ -10,8 +10,12 @@
     <title>Carrousel</title>
 </head>
 
+<header>
+    <h1 class="titre">Carrousel</h1>
+</header>
+
 <body>
-<h1 class="titre">Carrousel</h1>
+
     <div class="carrousel" x-data="{hrefCourant:'#ecran-1',}">
         <button  @click="$refs.carousel.scrollLeft -= $refs.carousel.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant">
             &lt;
