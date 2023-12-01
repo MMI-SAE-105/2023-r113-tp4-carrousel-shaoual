@@ -1,8 +1,13 @@
-/* en vrac :
-100% 100% 100% 0 auto border-box box-sizing 
-display height flex flex none margin 
-max-width width width
-*/
+@import "vendors/normalize.css";
+@import "utils/variables.css";
+@import "base/main.css";
+@import "base/media.css";
+@import "layout/header.css";
+@import "layout/footer.css";
+@import "components/menu.css";
+@import "components/intro.css";
+@import "components/btn.css";
+@import "components/stats.css";
 *{
     box-sizing:border-box;
 }
