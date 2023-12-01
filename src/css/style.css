@@ -3,6 +3,9 @@
 display height flex flex none margin 
 max-width width width
 */
+*{
+    box-sizing:border-box;
+}
 .titre {
   color: #31968e;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
@@ -32,22 +35,24 @@ max-width width width
 
 .carrousel_btn-avant {
   left: 0;
-  
 }
 .carrousel_btn-apres {
   right: 0;
-  
 }
 
 .img {
   max-width: 100%;
   height: auto;
+  margin:30x;
   /* image responsive, largeur maxi */
   /* hauteur "auto" */
 }
 .carrousel_parent-ecrans {
-  padding: ;
-  top: none;
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
   /* aligne horizontalement les enfants */
   /* largeur du parent */
 }
@@ -58,9 +63,18 @@ max-width width width
   /* permet de garder toute la largeur du parent */
 }
 .carrousel_ecran figure {
+   margin: 0;
   /* enlève les marges par défaut */
 }
 
 .carrousel-flex {
+}
 
+.caroussel_liste-liens {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  justify-content: center;
+  gap: 1rem;
 }

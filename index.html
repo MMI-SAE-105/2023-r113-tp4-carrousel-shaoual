@@ -19,8 +19,9 @@
         <button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant" @click="$refs.carousel.scrollLeft += $refs.carousel.clientWidth">
             >
         </button>
-        <div class="carrousel_parent-ecrans" x-ref="parent" @scroll.debounce.250ms.passive=">
-            <div id="ecran-1" class="carrousel_ecran">
+        <div class="carrousel_parent-ecrans" x-ref="parent"
+            >
+            <div id= "ecran-1" class="carrousel_ecran">
                 <figure>
                     <img src="https://picsum.photos/seed/1/500/300" alt="image ecran 1">
                     <figcaption>Ecran 1</figcaption>
