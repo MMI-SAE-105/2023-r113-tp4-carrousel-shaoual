@@ -32,13 +32,11 @@ max-width width width
 
 .carrousel_btn-avant {
   left: 0;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
+  
 }
 .carrousel_btn-apres {
   right: 0;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
+  
 }
 
 .img {
@@ -64,5 +62,5 @@ max-width width width
 }
 
 .carrousel-flex {
-  
+
 }
